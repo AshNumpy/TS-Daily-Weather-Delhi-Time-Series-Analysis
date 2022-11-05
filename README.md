@@ -3,7 +3,7 @@ In this project we will do time-series analysis and doing some forecasting with 
 
 You can find the studies on `../Notebooks/` folder.  
 
-Also you can find the images thats are exporting plots on `../Images/` folder.
+Also you can find the images thats exported plots on `../Images/` folder.
   
 ## Reading Map  
 1. start with `../Notebooks/explore.ipynb` notebook to read. In this notebook you will explore and understand the data.  
