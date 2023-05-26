@@ -1,5 +1,5 @@
 ## Delhi Daily Weather Time Series Analysis and Forecasting  
-In this project we will do time-series analysis and doing some forecasting with Facebook Prophet.  
+Project's purpose is forecasting future wether results in Delhi.
 
 You can find the studies on `../Notebooks/` folder.  
 
