@@ -1,62 +1,50 @@
-## Delhi Daily Weather Time Series Analysis and Forecasting  
-Project's purpose is forecasting future wether results in Delhi.
+<details>
+<summary>Türkçe Açıklama için Tıklayınız</summary>
 
-You can find the studies on `../Notebooks/` folder.  
+## Proje Genel Bakış:
 
-Also you can find the images thats exported plots on `../Images/` folder.
-  
-## Reading Map  
-1. start with `../Notebooks/explore.ipynb` notebook to read. In this notebook you will explore and understand the data.  
-1. Keep going with `../Notebooks/correlations.ipynb`. In this notebook you will doing some correlation studies. You will see ACF and PACF. Also you will se some insights from ACF and PACF graphs.  
-1. Third one of the notebooks is `../Notebook/time_series_analysis.ipynb`. In this notebook you will see how I did time series analysis to data. You will understand metrics of the time series concept.  
-1. The last one is `../Notebooks/forecasting.ipynb` notebook. In forecasting notebook you will see how I did forecasting. You can read the capabilities of Prophet model that was my choice for doing forecasting. Also you can read the Prophet's describing.  
+Bu proje, Delhi'deki hava sıcaklıklarını zaman serisi analizi ve makine öğrenmesi algoritmaları kullanarak inceleyen ve gelecek zamana ilişkin sıcaklık tahminleri yapmayı amaçlayan bir projedir. Projede, Delhi'deki günlük hava sıcaklığı verileri kullanılarak zaman serisi analizi yapılır ve sıcaklık verilerinin trendleri, mevsimsellikleri ve diğer önemli özellikleri ortaya çıkarılır. Ardından, makine öğrenmesi algoritmaları (örneğin, ARIMA, LSTM, vb.) kullanılarak gelecek zamanda sıcaklık tahminleri yapılır.
 
-## Requirements  
+## Proje Hedefleri:
 
-<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvEfXHLIJLACY1DI30rAzDlbekLkgFXYm1DA&usqp=CAU' width='100' height='100'> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01Ctpf3nRjz7b9l-om2h2llNA0jL4d_MVtXXXHVF5mWIn5nyMXLgzYscFGZdbhf_LN8M&usqp=CAU' width='100' height='100'> <img src='https://caiodonalisio.com/static/blog/posts/cadernos/matplotlib/cover.png' width='100' height='100'> <img src='https://i0.wp.com/cmdlinetips.com/wp-content/uploads/2021/01/statsmodels_Python.png?fit=264%2C191&ssl=1' width='140' height='100'> <img src='https://miro.medium.com/max/964/0*tVCene42rgUTNv9Q.png' width='320' height='100'> 
-1. Numpy  
-```git bash
-pip intall numpy
+- Veri İnceleme: Delhi'deki hava sıcaklığı verileri görselleştirilerek trendler, mevsimsellikler ve diğer önemli yapılar analiz edilir.
 
-Version: 1.23.0
-Summary: NumPy is the fundamental package for array computing with Python.
-Home-page: https://www.numpy.org
-```
-1. Pandas  
-```git bash
-pip intall pandas
+- Zaman Serisi Analizi: Zaman serisi analizi yöntemleri kullanılarak sıcaklık verilerinin özellikleri ortaya çıkarılır.
 
-Version: 1.4.3
-Summary: Powerful data structures for data analysis, time series, and statistics
-Home-page: https://pandas.pydata.org
-```
-1. Matplotlib  
-```git bash
-pip intall matplotlib
+- Sıcaklık Tahmini: Makine öğrenmesi algoritmaları kullanılarak gelecek zamanda sıcaklık tahminleri yapılır.
 
-Version: 3.5.2
-Summary: Python plotting package
-Home-page: https://matplotlib.org
-```
-1. Statsmodels  
-```git bash
-pip intall statsmodels
+## Proje Özellikleri:
 
-Version: 0.13.2
-Summary: Statistical computations and models for Python
-Home-page: https://www.statsmodels.org/
-```
-1. Prophet  
-```git bash
-pip install prophet
+- Veri Toplama: Delhi'deki günlük hava sıcaklığı verileri toplanarak bir veri seti oluşturulur.
 
-Version: 1.1
-Summary: Automatic Forecasting Procedure
-Home-page: https://facebook.github.io/prophet/
-```
+- Veri İnceleme: Veriler görselleştirilerek hava sıcaklığının zaman içindeki değişimleri incelenir.
 
-## About Data  
-**Content**  
-This dataset provides data from 1st January 2013 to 24th April 2017 in the city of Delhi, India.
+- Zaman Serisi Analizi: Zaman serisi analizi teknikleri kullanılarak sıcaklık verilerinin trendleri, mevsimsellikleri ve diğer önemli özellikleri belirlenir.
 
-Thanks [sumanthvrao](https://www.kaggle.com/sumanthvrao) for the dataset
+- Sıcaklık Tahmini: Makine öğrenmesi algoritmaları kullanılarak gelecek zamanda hava sıcaklığının tahminleri yapılır.
+
+</details>
+
+## Project Overview:
+
+This project aims to perform time series analysis of the temperature in Delhi and make predictions about the future temperatures using machine learning algorithms. The project utilizes daily temperature data in Delhi to conduct time series analysis and uncover trends, seasonality, and other important features of the temperature data. Then, machine learning algorithms (such as ARIMA, LSTM, etc.) are used to make predictions about the temperature in the future.
+
+## Project Objectives:
+
+- Data Exploration: The temperature data in Delhi is visualized to analyze trends, seasonality, and other important patterns.
+
+- Time Series Analysis: Time series analysis techniques are applied to reveal the characteristics of the temperature data.
+
+- Temperature Prediction: Machine learning algorithms are used to make predictions about the temperature in the future.
+
+## Project Features:
+
+- Data Collection: Daily temperature data in Delhi is collected to create a dataset.
+
+- Data Exploration: The data is visualized to explore the variations of temperature over time.
+
+- Time Series Analysis: Time series analysis techniques are used to identify trends, seasonality, and other important features of the temperature data.
+
+- Temperature Prediction: Machine learning algorithms are employed to predict future temperatures.
+
+</details>
